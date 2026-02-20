@@ -47,7 +47,9 @@
           },
           {
             "group": "Project",
-            "pages": []
+            "pages": [
+              "create-project"
+            ]
           },
           {
             "group": "Compute",
