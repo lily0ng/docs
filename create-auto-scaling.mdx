@@ -1,0 +1,147 @@
+---
+title: "Create Auto Scaling"
+---
+
+## **Auto-scaling**
+
+**Auto-scaling** is a cloud computing feature that automatically adjusts the number of virtual machine (VM) instances in response to real-time demand. It ensures that your applications remain available and perform optimally while minimizing costs by scaling resources up or down based on usage.
+
+---
+
+### **Creating Auto-scaling**
+
+- From the left-hand side menu, click on the **Auto-scaling** tab.
+- To create a auto-scaling, click the **Auto-scaling** or **Create New** icon located on the right side of the page. This will open the auto-scaling creation menu.
+
+  <Frame>
+    ![Image](/images/image-112.png)
+  </Frame>
+
+### **Assign to a Project**
+
+- Assign the load balancer to one of your projects to organize and manage resources effectively.
+
+  <Frame>
+    ![Image](/images/image-113.png)
+  </Frame>
+
+### **Choose a Location**
+
+- Select the data center location where your server will be physically hosted.
+- Choose from the available locations listed.
+
+  <Frame>
+    ![Image](/images/image-114.png)
+  </Frame>
+
+### **Choose Network**
+
+- Set up or choose a network for your server. This can be an isolated private network, or you can create an elastic network to connect multiple regions.
+- Alternatively, you can also create or set up a new network by selecting **Create New Network**.
+
+  <Frame>
+    ![Image](/images/image-114.png)
+  </Frame>
+
+### **Select Load Balancer**
+
+- A load balancer distributes incoming traffic across multiple VM instances. Select the **Load Balancer** you want from the available list.
+
+  <Frame>
+    ![Image](/images/image-115.png)
+  </Frame>
+
+### **Set Forwarding Rules**
+
+- Configure forwarding rules to define how traffic should be distributed across your servers.
+- Provide a the port range for incoming traffic with **Public** and **Private** ports.
+
+  <Frame>
+    ![Image](/images/image-116.png)
+  </Frame>
+
+### **Choose Image**
+
+- Select an operating system or application template to install on your server.
+
+<Frame>
+  ![Image](/images/image-117.png)
+</Frame>
+
+### **Choose Plan**
+
+- Choose a plan based on your requirements like CPU, memory, storage, and bandwidth. You can also create a custom plan if needed.
+- The cost will adjust according to the resources you select.
+
+  <Frame>
+    ![Image](/images/image-118.png)
+  </Frame>
+
+### **Server Settings**
+
+- In server settings, you can add password to your server to enhance security. Click on **Set now**.
+- Enter **Username** and **Password** then clcik on **Confirm** to add password.
+
+  <Frame>
+    ![Image](/images/image-119.png)
+  </Frame>
+
+### **Capacity Planner**
+
+- Enter the minimum and maximum number of instances and enter the grace period in seconds.
+
+  <Frame>
+    ![Image](/images/image-120.png)
+  </Frame>
+
+**Expunge VM Grace Period:** Defines the waiting time (in seconds) before cloud permanently deletes (“expunges”) a VM that was removed by an Auto Scaling scale-down action.
+
+**Polling Interval:** Determines how often (in seconds) cloud retrieves performance metrics.
+
+### **Set Up Policies**
+
+- A **Scale Up** policy is triggered when resource usage exceeds a defined threshold, adding more instances to handle increased demand.
+
+  <Frame>
+    ![Image](/images/image-121.png)
+  </Frame>
+
+
+- **Duration:** How long (in seconds) the Auto Scaling system should observe the metric threshold before triggering a scale-up action.
+
+  **Quiet Time:** The minimum cooldown period (in seconds) between two consecutive scale-up actions.
+- A **Scale Down** policy is triggered when resource demand drops, reducing the number of active instances to save costs.
+
+  <Frame>
+    ![Image](/images/image-122.png)
+  </Frame>
+
+
+- Click on **Expression** to add expression to your Scale up and Scale down policies. Provide the **Counter**, **Operator** and **Threshold** and click on **Submit**.
+
+  <Frame>
+    ![Image](/images/image-123.png)
+  </Frame>
+
+### **Choose Auto-scaling Name**
+
+- Provide a unique **Auto-scaling Name** for your Auto-scaling to identify it easily in your dashboard.
+
+  <Frame>
+    ![Image](/images/image-124.png)
+  </Frame>
+
+### **Create Auto-scaling**
+
+- Choose the desired **Billing Cycle** for your Auto-scaling. Autoscaling supports Monthly, Quarterly, Semiannually, Yearly, Bi-annually, and Tri-annually billing cycles.
+- The billing rules include Date to Date, Fixed Calendar Month, Unfixed Calendar Month, Fixed Prorata, and Unfixed Prorata.
+- There is no specific package detail provided, but autoscaling follows the same billing model as other scalable services to adapt to workload demands.
+- Verify all the configuration details and review the price summary. Click on **Create** to create the Auto-scaling.
+
+  <Frame>
+    ![Image](/images/image-124.png)
+  </Frame>
+
+### **Conclusion**
+
+Auto-scaling is a powerful feature that helps you maintain application performance, availability, and cost efficiency by automatically adjusting resources based on demand. By carefully configuring networks, load balancers, server settings, and scaling policies, you can ensure that your workloads adapt seamlessly to varying traffic patterns.

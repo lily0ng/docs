@@ -57,34 +57,58 @@
           },
           {
             "group": "Volumes",
-            "pages": []
+            "pages": [
+              "create-volume"
+            ]
           },
           {
             "group": "Volumes Snapshot",
-            "pages": []
+            "pages": [
+              "create-volume-snapshot"
+            ]
           },
           {
             "group": "VM Snapshots",
-            "pages": []
+            "pages": [
+              "create-instance-snapshot"
+            ]
           },
           {
             "group": "Backups",
-            "pages": []
+            "pages": [
+              "create-backups"
+            ]
+          },
+          {
+            "group": "Template",
+            "pages": [
+              "create-templates-1"
+            ]
           },
           {
             "group": "Market Place App",
-            "pages": []
+            "pages": [
+              "create-templates",
+              "ha-proxy-server"
+            ]
           },
           {
             "group": "Affinity Groups",
-            "pages": []
+            "pages": [
+              "create-affinity-groups"
+            ]
           },
           {
             "group": "Auto Scaling",
-            "pages": []
+            "pages": [
+              "create-auto-scaling"
+            ]
           },
           {
             "group": "Networks",
+            "icon": "folder",
+            "tag": "networking",
+            "expanded": true,
             "pages": [
               {
                 "group": "Isolated Network",
