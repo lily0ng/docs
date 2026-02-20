@@ -202,5 +202,6 @@
       "linkedin": "https://linkedin.com/1cloudng"
     }
   },
-  "description": "Joining 1CNG is simple. Just sign up on our platform, choose the cloud services you need, and deploy your first instance in minutes. We’re here to help you launch, grow, and scale—all on local infrastructure you can trust."
+  "description": "Joining 1CNG is simple. Just sign up on our platform, choose the cloud services you need, and deploy your first instance in minutes. We’re here to help you launch, grow, and scale—all on local infrastructure you can trust.",
+  "favicon": "/images/onecloud-light.png"
 }
