@@ -1,0 +1,75 @@
+---
+title: "Public IP Address"
+---
+
+## **Public IP Address**
+
+A **Public IP** in 1CNG is an internet-facing IP address assigned to cloud resources, allowing them to be accessible from outside the private network. Public IPs are essential for web servers, APIs, and other services requiring direct internet access.
+
+---
+
+### **View Public IPs**
+
+- From the left-hand menu, click on the **Networks** tab.
+- You will be redirected to the **Networks** page. Go to the **Public IP Address** tab where you will see the Public IPs listed.
+
+<Frame>
+  ![Image](/images/image-14.png)
+</Frame>
+
+### **Public IP Details**
+
+- To view more detail, click on the public IP instance.
+- From the **Details** tab you can view the details like IP address, network name, account details, and country zone.
+
+<Frame>
+  ![Image](/images/image-15.png)
+</Frame>
+
+### **Add Firewall Rule**
+
+- Go to the **Firewall** tab where you will see firewall rules which have been set before.
+- To add firewall rule click on **Add Firewall Rule**.
+
+<Frame>
+  ![Image](/images/image-16.png)
+</Frame>
+
+- Add source CIDR, and select protocol from TCP, UDP, ICMP.
+- Add the Start and End port and click on **Add Firewall Rule**.
+
+<Frame>
+  ![Image](/images/image-17.png)
+</Frame>
+
+### **Add Port Forwarding Rule**
+
+- Go to the **Port Forwarding** tab where you will see port forwarding rules which have been set before.
+- To add port forwarding rule click on **Add Rule**.
+
+<Frame>
+  ![Image](/images/image-18.png)
+</Frame>
+
+- **Private Port Range (Start - End)**: This defines the port range on your internal (private) network where traffic will be forwarded.
+- **Public Port Range (Start - End)**: This defines the external (public) ports that will be accessible from the internet.
+- **Protocol**: Choose TCP, UDP, or Both depending on the service requirements.
+- **Instance**: Select the VM instance device that will receive the forwarded traffic.
+- Click on **Submit** to save and create the rule.
+
+  <Frame>
+    ![Image](/images/image-19.png)
+  </Frame>
+
+### **Enable Remote Access VPN**
+
+- Go to the **Remote Access VPNs** tab where you will see option to set remote access VPN.
+- If you need secure remote access to the private network, click on **Enable Remote Access VPN** to activate a VPN connection.
+
+  <Frame>
+    ![Image](/images/image-20.png)
+  </Frame>
+
+### **Conclusion**
+
+By following this guide, you can effectively manage Public IPs in 1CNG — whether it’s assigning IPs, applying firewall rules, configuring port forwarding, or enabling VPN access. These options help ensure your virtual infrastructure is accessible and secure

@@ -85,15 +85,46 @@
           },
           {
             "group": "Networks",
-            "pages": []
+            "pages": [
+              {
+                "group": "Isolated Network",
+                "pages": [
+                  "create-isolated-network",
+                  "network-overview-1",
+                  "egress-rules",
+                  "public-ip-addresses",
+                  "associated-vms-1"
+                ]
+              },
+              {
+                "group": "VPC Networks",
+                "pages": [
+                  "create-vpc-networks",
+                  "network-overview",
+                  "add-network",
+                  "public-ip-address-1",
+                  "network-acl-list",
+                  "vpn-gateway",
+                  "vpn-connections",
+                  "associated-vms"
+                ]
+              },
+              "public-ip-address",
+              "vpn-users",
+              "vpn-customer-gateway"
+            ]
           },
           {
             "group": "Load Balancer",
-            "pages": []
+            "pages": [
+              "load-balancer"
+            ]
           },
           {
             "group": "VNF Appliances",
-            "pages": []
+            "pages": [
+              "vnf-appliances"
+            ]
           },
           {
             "group": "Billing",
