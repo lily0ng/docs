@@ -53,7 +53,19 @@
           },
           {
             "group": "Compute",
-            "pages": []
+            "pages": [
+              "compute-instance",
+              "instance-overview",
+              "monitoring-resources",
+              {
+                "group": "VM Settings",
+                "pages": []
+              },
+              "console-access",
+              "vm-activity-logs",
+              "connect-with-ssh",
+              "connect-with-rdp"
+            ]
           },
           {
             "group": "Volumes",
