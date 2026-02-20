@@ -169,10 +169,7 @@
       }
     ]
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
+  "logo": "/logo/light.svg",
   "navbar": {
     "links": [
       {
@@ -206,5 +203,14 @@
     }
   },
   "description": "Joining 1CNG is simple. Just sign up on our platform, choose the cloud services you need, and deploy your first instance in minutes. We’re here to help you launch, grow, and scale—all on local infrastructure you can trust.",
-  "favicon": "/images/onecloud-light.png"
+  "favicon": "/images/onecloud-light.png",
+  "appearance": {
+    "default": "system"
+  },
+  "styling": {
+    "latex": false
+  },
+  "icons": {
+    "library": "fontawesome"
+  }
 }
