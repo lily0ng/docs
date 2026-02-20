@@ -23,6 +23,7 @@
         "groups": [
           {
             "group": "Getting Started",
+            "expanded": true,
             "pages": [
               "introduction",
               "account-sign-up",
@@ -31,12 +32,14 @@
           },
           {
             "group": "Project",
+            "expanded": true,
             "pages": [
               "create-project"
             ]
           },
           {
             "group": "Compute",
+            "expanded": true,
             "pages": [
               "compute-instance",
               "instance-overview",
@@ -53,36 +56,42 @@
           },
           {
             "group": "Volumes",
+            "expanded": true,
             "pages": [
               "create-volume"
             ]
           },
           {
             "group": "Volumes Snapshot",
+            "expanded": true,
             "pages": [
               "create-volume-snapshot"
             ]
           },
           {
             "group": "VM Snapshots",
+            "expanded": true,
             "pages": [
               "create-instance-snapshot"
             ]
           },
           {
             "group": "Backups",
+            "expanded": true,
             "pages": [
               "create-backups"
             ]
           },
           {
             "group": "Template",
+            "expanded": true,
             "pages": [
               "create-templates-1"
             ]
           },
           {
             "group": "Market Place App",
+            "expanded": true,
             "pages": [
               "create-templates",
               "ha-proxy-server"
@@ -90,12 +99,14 @@
           },
           {
             "group": "Affinity Groups",
+            "expanded": true,
             "pages": [
               "create-affinity-groups"
             ]
           },
           {
             "group": "Auto Scaling",
+            "expanded": true,
             "pages": [
               "create-auto-scaling"
             ]
@@ -108,6 +119,7 @@
             "pages": [
               {
                 "group": "Isolated Network",
+                "expanded": true,
                 "pages": [
                   "create-isolated-network",
                   "network-overview-1",
@@ -118,6 +130,7 @@
               },
               {
                 "group": "VPC Networks",
+                "expanded": true,
                 "pages": [
                   "create-vpc-networks",
                   "network-overview",
@@ -136,22 +149,26 @@
           },
           {
             "group": "Load Balancer",
+            "expanded": true,
             "pages": [
               "load-balancer"
             ]
           },
           {
             "group": "VNF Appliances",
+            "expanded": true,
             "pages": [
               "vnf-appliances"
             ]
           },
           {
             "group": "Billing",
+            "expanded": true,
             "pages": []
           },
           {
             "group": "Support",
+            "expanded": true,
             "pages": [
               "s"
             ]
