@@ -25,7 +25,7 @@
     },
     "tabs": [
       {
-        "tab": "Home",
+        "tab": "Getting Started",
         "groups": [
           {
             "group": "Welcome",
@@ -36,7 +36,75 @@
         ]
       },
       {
-        "tab": "Docs"
+        "tab": "Docs",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "account-sign-up",
+              "profile-setup"
+            ]
+          },
+          {
+            "group": "Project",
+            "pages": []
+          },
+          {
+            "group": "Compute",
+            "pages": []
+          },
+          {
+            "group": "Volumes",
+            "pages": []
+          },
+          {
+            "group": "Volumes Snapshot",
+            "pages": []
+          },
+          {
+            "group": "VM Snapshots",
+            "pages": []
+          },
+          {
+            "group": "Backups",
+            "pages": []
+          },
+          {
+            "group": "Market Place App",
+            "pages": []
+          },
+          {
+            "group": "Affinity Groups",
+            "pages": []
+          },
+          {
+            "group": "Auto Scaling",
+            "pages": []
+          },
+          {
+            "group": "Networks",
+            "pages": []
+          },
+          {
+            "group": "Load Balancer",
+            "pages": []
+          },
+          {
+            "group": "VNF Appliances",
+            "pages": []
+          },
+          {
+            "group": "Billing",
+            "pages": []
+          },
+          {
+            "group": "Support",
+            "pages": [
+              "s"
+            ]
+          }
+        ]
       },
       {
         "tab": "Security"
