@@ -19,6 +19,12 @@
     },
     "tabs": [
       {
+        "tab": "Welcome",
+        "pages": [
+          "hello"
+        ]
+      },
+      {
         "tab": "Docs",
         "groups": [
           {
@@ -46,7 +52,17 @@
               "monitoring-resources",
               {
                 "group": "VM Settings",
-                "pages": []
+                "pages": [
+                  "untitled-page",
+                  "change-plan",
+                  "change-hostname",
+                  "change-os",
+                  "change-startup-script",
+                  "firewall",
+                  "port-forwarding",
+                  "networks",
+                  "ssh-keys"
+                ]
               },
               "console-access",
               "vm-activity-logs",
@@ -183,6 +199,18 @@
       },
       {
         "tab": "Support"
+      },
+      {
+        "tab": "Testing",
+        "pages": [
+          "hello-weclome-news",
+          {
+            "group": "Docs",
+            "pages": [
+              "create"
+            ]
+          }
+        ]
       }
     ]
   },
